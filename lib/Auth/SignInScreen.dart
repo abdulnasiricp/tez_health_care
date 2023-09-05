@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:tez_health_care/Auth/Forgot_screen.dart';
+import 'package:tez_health_care/Auth/Signup_screen.dart';
 import 'package:tez_health_care/Utils/My_button.dart';
 import 'package:tez_health_care/Utils/helper_class.dart';
 
@@ -14,7 +15,6 @@ class SignInScreen extends StatefulWidget {
 }
 
 class _SignInScreenState extends State<SignInScreen> {
-  TextEditingController userNameController = TextEditingController();
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
   final formKey = GlobalKey<FormState>();
@@ -134,12 +134,12 @@ class _SignInScreenState extends State<SignInScreen> {
                 ),
               ),
               Padding(
-                padding:  EdgeInsets.only( top: MediaQuery.of(context).size.height / 1.9,),
+                padding:  EdgeInsets.only( top: MediaQuery.of(context).size.height / 1.8,),
                 child: const Center(child: Text('------ or ------')),
               ),
               Padding(
                 padding: EdgeInsets.only(
-                    top: MediaQuery.of(context).size.height / 1.8,left: 20,right: 20),
+                    top: MediaQuery.of(context).size.height / 1.7,left: 20,right: 20),
                     
                 child: Column(
                   children: [
@@ -161,7 +161,24 @@ class _SignInScreenState extends State<SignInScreen> {
                     
                   ],
                 ),
-              )
+              ),
+               Padding(
+                 padding:  EdgeInsets.only(top: MediaQuery.of(context).size.height / 1.4,
+                  ),
+                 child: Container(
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          const Text("Don't have an account"),
+                          TextButton(
+                              onPressed: () {
+                                Get.to(() => const SignUpScreen());
+                              },
+                              child: const Text('Sign Up')),
+                        ],
+                      ),
+                    ),
+               ),
             ],
           ),
         ),
