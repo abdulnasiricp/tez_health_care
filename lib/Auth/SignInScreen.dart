@@ -71,14 +71,14 @@ class _SignInScreenState extends State<SignInScreen> {
                             onTapOutside: (event) =>
                                 FocusScope.of(context).unfocus(),
                             decoration: InputDecoration(
-                                prefixIcon: Icon(Icons.phone),
+                                prefixIcon: const Icon(Icons.phone),
                                 prefixIconColor: Colors.blue,
                                 hintText: 'Enter email and phone number',
                                 border: OutlineInputBorder(
                                   borderRadius: BorderRadius.circular(10),
                                 )),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             height: 20,
                           ),
                           TextFormField(
@@ -95,7 +95,7 @@ class _SignInScreenState extends State<SignInScreen> {
                                 FocusScope.of(context).unfocus(),
                             decoration: InputDecoration(
                                 hintText: 'Enter Password',
-                                prefixIcon: Icon(Icons.lock),
+                                prefixIcon: const Icon(Icons.lock),
                                 prefixIconColor: Colors.blue,
                                 suffixIcon: const Icon(Icons.visibility),
                                 border: OutlineInputBorder(
@@ -134,6 +134,10 @@ class _SignInScreenState extends State<SignInScreen> {
                 ),
               ),
               Padding(
+                padding:  EdgeInsets.only( top: MediaQuery.of(context).size.height / 1.9,),
+                child: const Center(child: Text('------ or ------')),
+              ),
+              Padding(
                 padding: EdgeInsets.only(
                     top: MediaQuery.of(context).size.height / 1.8,left: 20,right: 20),
                     
@@ -146,12 +150,12 @@ class _SignInScreenState extends State<SignInScreen> {
                           child: Container(height: 40,
                             child: Image.asset('assets/google.png',)),
                         ),
-                        Text('Google'),
+                        const Text('Google'),
                         Card(
                           child: Container(height: 40,
                             child: Image.asset('assets/apple.png',)),
                         ),
-                        Text('Google')
+                        const Text('Apple')
                       ],
                     ),
                     
