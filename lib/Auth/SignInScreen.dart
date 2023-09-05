@@ -149,7 +149,7 @@ class _SignInScreenState extends State<SignInScreen> {
                         Text('Google'),
                         Card(
                           child: Container(height: 40,
-                            child: Image.asset('assets/google.png',)),
+                            child: Image.asset('assets/apple.png',)),
                         ),
                         Text('Google')
                       ],
