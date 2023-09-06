@@ -1,16 +1,9 @@
-# tez_health_care
+# Hospital management System
 
-A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![OnBoarding1](https://github.com/abdulnasiricp/tez_health_care/assets/86516758/d7718887-9ee0-4b6b-b861-3a27bc50406b)
+![OnBoarding2](https://github.com/abdulnasiricp/tez_health_care/assets/86516758/5ae29c55-f874-4c38-8afb-9235750c94fa)
+![OnBoarding3](https://github.com/abdulnasiricp/tez_health_care/assets/86516758/7b3844f7-3655-45de-b183-7a0c411dc7b9)
+![login Screen](https://github.com/abdulnasiricp/tez_health_care/assets/86516758/b9907580-b36e-449c-b810-246787cb6656)
+![signUp screen](https://github.com/abdulnasiricp/tez_health_care/assets/86516758/c7f4cfd9-6823-4f65-b848-95b076e584ef)
+![forgot password screen](https://github.com/abdulnasiricp/tez_health_care/assets/86516758/4ef1199b-4710-48c3-a20e-5376f29eac27)
