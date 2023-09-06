@@ -7,3 +7,5 @@
 ![login Screen](https://github.com/abdulnasiricp/tez_health_care/assets/86516758/b9907580-b36e-449c-b810-246787cb6656)
 ![signUp screen](https://github.com/abdulnasiricp/tez_health_care/assets/86516758/c7f4cfd9-6823-4f65-b848-95b076e584ef)
 ![forgot password screen](https://github.com/abdulnasiricp/tez_health_care/assets/86516758/4ef1199b-4710-48c3-a20e-5376f29eac27)
+![home page](https://github.com/abdulnasiricp/tez_health_care/assets/86516758/447f0274-ab50-4e7c-a5b3-8286fc6d2110)
+![profile Page](https://github.com/abdulnasiricp/tez_health_care/assets/86516758/01d389b8-d8a6-4ce6-bdf6-a0c659d1a0a1)
