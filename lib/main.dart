@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:tez_health_care/View/OnBoarding/onboard.dart';
+import 'package:tez_health_care/BottomBar/bottombar_pages.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const OnboardingScreen(),
+      home: const DashboardScreen(),
+      //  OnboardingScreen(),
     );
   }
 }

@@ -1,7 +1,6 @@
 // ignore_for_file: file_names sized_box_for_whitespace, non_constant_identifier_names, avoid_types_as_parameter_names, file_names, sized_box_for_whitespace, avoid_unnecessary_containers
 
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 
 import '../Utils/Helper_class.dart';
 import '../Utils/My_button.dart';

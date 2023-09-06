@@ -10,6 +10,7 @@ class Utils {
   static Color? bgColor = Colors.blue[700];
   static Color? containerColor = Colors.white;
   static Color? scaffoldBackgroundColor = Colors.grey[100];
+  static Color? bottomsheetColor = Colors.grey[100];
 
 
   static TextStyle? headingtextStyle = const TextStyle(

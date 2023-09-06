@@ -1,8 +1,7 @@
-// ignore_for_file: file_names, sized_box_for_whitespace
+// ignore_for_file: file_names, sized_box_for_whitespace, avoid_unnecessary_containers
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:tez_health_care/Auth/Forgot_screen.dart';
 import 'package:tez_health_care/Auth/SignInScreen.dart';
 import 'package:tez_health_care/Utils/My_button.dart';
 import 'package:tez_health_care/Utils/helper_class.dart';
